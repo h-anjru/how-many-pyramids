@@ -33,7 +33,7 @@ pyramid,dE,dN,dH
 As stated above, the script iterates through all combinations of size *m* through *n* of these checkpoints' errors (or, more precisely, discrepencies) and calculates basic summary statistics.
 
 ## Output
-The output of the script is a series of CSV files that are saved in a new directory with the same name as the input file. Perhaps most important of all output is the CSV file whose name begins with `overall`, which contains the 5th, 50th, and 95th percentiles of the means and RMSEs for all combinations of sizex *m* through *n*.
+The output of the script is a series of CSV files that are saved in a new directory with the same name as the input file. Perhaps most important of all output is the CSV file whose name begins with `overall`, which contains the 5th, 50th, and 95th percentiles of the means and RMSEs for all statistics for combinations of sizes *m* through *n*.
 
 ## Dependencies
 This script requires the following external libraries:
